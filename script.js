@@ -25,8 +25,8 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     // --- Gemini API Configuration ---
-    const GEMINI_API_KEY = "AIzaSyDTTqivhDq5t3WU_KMHdeXghIZvexqnoi0";
-    const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${GEMINI_API_KEY}`;
+    const GEMINI_API_KEY = "AIzaSyAb8ShTeNKDKkpzFOlxGQa3eiHDX6ZH-rQ";
+    const API_URL = `https://generativelanguage.googleapis.com/v1beta/models/gemini-3-flash-preview:generateContent?key=${GEMINI_API_KEY}`;
 
     let currentChatHistory = [];
     let voiceModeRecognition;
